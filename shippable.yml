@@ -10,6 +10,7 @@ services:
   - couchdb
 
 # The path for Xunit to output test reports
+build_image: drydock/u12nodpls:tip
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
 
